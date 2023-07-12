@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('fonts/Segoe UI.woff') format('woff');
+  }
+  body{
+    font-family: Segoe UI;
+  }
+
+  #testmonial{
+    position: relative;
+    height: 40vh;
+    border-radius: 10px;
+  
+  }
+  #testmonial-child{
+    position: absolute;
+    top: 7rem;
+  }
+.navbar-collapse{
+justify-content: center;
+}
+.nav-item{
+    margin: 0px 5px;
+    font-weight: bold;
+}
+.hr-line{
+    height: 1px;
+    background-color: black;
+}
+.center-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mar-auto{
+    margin: auto 0px;
+}
+.pad-custom{
+    padding: .5rem 2rem;
+}
+
+h1{
+    font-weight: bold;
+}
+.artwork-card{
+    border: none !important;
+}
+.card{
+    border: none;
+}
+  
+.card-img-top{
+    width: 241px;
+height: 200px;
+}
+.bw-center{
+    justify-content: space-between !important;
+}
+
+.mt-5{
+    margin-top: 5rem !important;
+}
+.mb-5{
+    margin-bottom: 5rem !important;
+}
+.pt-5{
+    padding-top: 5rem !important;
+}
+.price-left{
+     display: flex;
+     justify-content: flex-end;
+}
+.price-right{
+     display: flex;
+     justify-content: flex-start;
+}
+
+.bor-rad{
+    border-radius: 15px;
+
+}
+.test-card{
+    background-color: #fff;
+}
+.test-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem 0rem;
+  
+    img{
+        width: 64px;
+        height: 63px;
+    }
+}
+.wihtd{
+    width: 90%;
+}
+.test-name{
+   
+font: normal normal 600 13px/18px Nunito Sans !important;
+margin:0 !important;
+}
+.star{
+    width: 15px;
+height: 14px;
+}
+
+
+.test-img{
+width: 42px;
+height: 43px;
+}
+
+.space{
+   height: 60vh;
+   width: 100%;
+}
+
+.codes3-img{
+    width: 48px;
+    height: 45px;
+}
+.codes2-img{
+    width: 177px;
+    height: 100px;
+}
+.codes1-img{
+    width: 185px;
+height: 58px;
+}
+
+//Media 
+/* Styles for extra small (xs) screens */
+    @media (max-width: 575.98px) {
+    
+    }
+
+    /* Styles for small (sm) screens */
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      
+    }
+
+    /* Styles for medium (md) screens */
+    @media (max-width: 991.98px) {
+        .hr-line{
+            height: 1px;
+            background-color: rgba(0, 0, 0, 0);
+        }
+        .mar-media{
+         margin: 2rem;
+        }
+        
+        .bw-center{
+            justify-content: center !important;
+        }  
+        .w-50{
+            width: 100% !important;
+        }
+        #testmonial{
+            position: static;
+            height: auto;
+          
+          }
+          #testmonial-child{
+            position: static;
+            top: 0px;
+          }
+          .space{
+            display: none;
+          }
+            
+    }
+
+ 
